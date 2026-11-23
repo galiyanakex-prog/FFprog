@@ -1,0 +1,22 @@
+# Файлы сборки и локального окружения не попадают в образ.
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+deb/
+dist/
+*.tar
+*.tar.gz
+*.deb
+other/
+README.md
+LICENSE
+Dockerfile
+.dockerignore
+docker-compose.yml
+build_image.py
+run-ffprog.sh
+install_shortcut.sh
+docker/README-DOCKER.md
